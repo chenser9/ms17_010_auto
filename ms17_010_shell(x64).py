@@ -45,7 +45,7 @@ def main():
     # 配置ruby环境
     os.system('rvm use ruby-2.7.2')
     os.system('sudo bundle install')
-    command = '/opt/metasploit-framework/embedded/framework/msfconsole -r autoscanning.rc'
+    command = '/opt/metasploit-framework/embedded/framework/msfconsole -r meta(x64).rc'
     os.system(command)
 if __name__ == '__main__':
     main()
